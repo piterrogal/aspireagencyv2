@@ -87,27 +87,39 @@ export default function Page() {
               </div>
             </div>
 
-            <div className="card rounded-lg border-white/10 bg-white/10 p-1 text-white backdrop-blur sm:rounded-[2rem] sm:p-5">
-              <div className="grid grid-cols-4 gap-1 sm:grid-cols-2 sm:gap-3">
-                <div className="rounded-md bg-white px-1.5 py-1 text-ink sm:rounded-3xl sm:p-4">
-                  <p className="text-[7px] font-semibold uppercase text-violet sm:text-[11px]">Location</p>
-                  <p className="text-[10px] font-bold leading-tight sm:mt-2 sm:text-lg">Fonthill</p>
-                  <p className="text-[8px] text-slate-600 sm:mt-1 sm:text-sm">Dublin</p>
+            {/* Mobile: compact horizontal badges */}
+            <div className="flex flex-wrap gap-1.5 sm:hidden">
+              <div className="rounded-full bg-white px-3 py-1.5 text-[11px] font-semibold text-ink">
+                Fonthill, Dublin
+              </div>
+              <div className="rounded-full bg-white/15 px-3 py-1.5 text-[11px] font-semibold text-white">
+                Mon–Thu 9–17:30
+              </div>
+              <div className="rounded-full bg-white px-3 py-1.5 text-[11px] font-semibold text-violet">
+                5.0 Google
+              </div>
+            </div>
+            {/* Desktop: card grid */}
+            <div className="card hidden rounded-[2rem] border-white/10 bg-white/10 p-5 text-white backdrop-blur sm:block">
+              <div className="grid grid-cols-2 gap-3">
+                <div className="rounded-3xl bg-white p-4 text-ink">
+                  <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-violet">Location</p>
+                  <p className="mt-2 text-lg font-bold leading-tight">Fonthill Retail Park</p>
+                  <p className="mt-1 text-sm text-slate-600">Lucan, Dublin</p>
                 </div>
-                <div className="rounded-md bg-white/10 px-1.5 py-1 sm:rounded-3xl sm:p-4">
-                  <p className="text-[7px] font-semibold uppercase text-white/70 sm:text-[11px]">Hours</p>
-                  <p className="text-[10px] font-bold leading-tight sm:mt-2 sm:text-lg">9–17:30</p>
-                  <p className="text-[8px] text-white/70 sm:mt-1 sm:text-sm">Mon–Thu</p>
+                <div className="rounded-3xl bg-white/10 p-4">
+                  <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-white/70">Hours</p>
+                  <p className="mt-2 text-lg font-bold leading-tight">09:00–17:30</p>
+                  <p className="mt-1 text-sm text-white/70">Mon–Thu</p>
                 </div>
-                <div className="rounded-md bg-white/10 px-1.5 py-1 sm:rounded-3xl sm:p-4">
-                  <p className="text-[7px] font-semibold uppercase text-white/70 sm:text-[11px]">Type</p>
-                  <p className="text-[10px] font-bold leading-tight sm:mt-2 sm:text-lg">Events</p>
-                  <p className="text-[8px] text-white/70 sm:mt-1 sm:text-sm">B2B</p>
+                <div className="rounded-3xl bg-white/10 p-4">
+                  <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-white/70">Business type</p>
+                  <p className="mt-2 text-lg font-bold leading-tight">Events & conferences</p>
                 </div>
-                <div className="rounded-md bg-white px-1.5 py-1 text-ink sm:rounded-3xl sm:p-4">
-                  <p className="text-[7px] font-semibold uppercase text-violet sm:text-[11px]">Rating</p>
-                  <p className="text-[10px] font-bold leading-tight sm:mt-2 sm:text-lg">5.0</p>
-                  <p className="text-[8px] text-slate-600 sm:mt-1 sm:text-sm">Google</p>
+                <div className="rounded-3xl bg-white p-4 text-ink">
+                  <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-violet">Google rating</p>
+                  <p className="mt-2 text-lg font-bold leading-tight">5.0</p>
+                  <p className="mt-1 text-sm text-slate-600">Top rated</p>
                 </div>
               </div>
             </div>
