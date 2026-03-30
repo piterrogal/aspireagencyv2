@@ -87,27 +87,19 @@ export default function Page() {
               </div>
             </div>
 
-            <div className="card rounded-2xl border-white/10 bg-white/10 p-3 text-white backdrop-blur sm:rounded-[2rem] sm:p-5">
-              <div className="grid grid-cols-2 gap-2 sm:gap-3">
-                <div className="rounded-2xl bg-white p-3 text-ink sm:rounded-3xl sm:p-4">
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-violet sm:text-[11px] sm:tracking-[0.22em]">Location</p>
-                  <p className="mt-1.5 text-base font-bold leading-tight sm:mt-2 sm:text-lg">Fonthill Retail Park</p>
-                  <p className="mt-0.5 text-xs text-slate-600 sm:mt-1 sm:text-sm">Lucan, Dublin</p>
-                </div>
-                <div className="rounded-2xl bg-white/10 p-3 sm:rounded-3xl sm:p-4">
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-white/70 sm:text-[11px] sm:tracking-[0.22em]">Hours</p>
-                  <p className="mt-1.5 text-base font-bold leading-tight sm:mt-2 sm:text-lg">09:00–17:30</p>
-                  <p className="mt-0.5 text-xs text-white/70 sm:mt-1 sm:text-sm">Mon–Thu</p>
-                </div>
-                <div className="rounded-2xl bg-white/10 p-3 sm:rounded-3xl sm:p-4">
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-white/70 sm:text-[11px] sm:tracking-[0.22em]">Business type</p>
-                  <p className="mt-1.5 text-base font-bold leading-tight sm:mt-2 sm:text-lg">Events & conferences</p>
-                </div>
-                <div className="rounded-2xl bg-white p-3 text-ink sm:rounded-3xl sm:p-4">
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-violet sm:text-[11px] sm:tracking-[0.22em]">Google rating</p>
-                  <p className="mt-1.5 text-base font-bold leading-tight sm:mt-2 sm:text-lg">5.0</p>
-                  <p className="mt-0.5 text-xs text-slate-600 sm:mt-1 sm:text-sm">Top rated</p>
-                </div>
+            {/* Compact badges - mobile & desktop */}
+            <div className="flex flex-wrap gap-1.5 sm:gap-2">
+              <div className="rounded-full bg-white px-3 py-1.5 text-[11px] font-semibold text-ink sm:px-4 sm:py-2 sm:text-sm">
+                Fonthill, Dublin
+              </div>
+              <div className="rounded-full bg-white/15 px-3 py-1.5 text-[11px] font-semibold text-white sm:px-4 sm:py-2 sm:text-sm">
+                Mon–Thu 9–17:30
+              </div>
+              <div className="rounded-full bg-white/15 px-3 py-1.5 text-[11px] font-semibold text-white sm:px-4 sm:py-2 sm:text-sm">
+                Events & Conferences
+              </div>
+              <div className="rounded-full bg-white px-3 py-1.5 text-[11px] font-semibold text-violet sm:px-4 sm:py-2 sm:text-sm">
+                5.0 Google Rating
               </div>
             </div>
           </div>
@@ -197,7 +189,7 @@ export default function Page() {
                     Call now
                   </a>
                   <a
-                    href="https://www.google.com/maps/search/?api=1&query=Unit+5+The+Courtyard+Unit+19+Fonthill+Rd+Lucan+Co.+Dublin"
+                    href="https://www.google.com/maps/search/?api=1&query=ASPIRE+The+Agency+Unit+5+The+Courtyard+Unit+19+Fonthill+Rd+Ballyowen+Lucan+Co.+Dublin+D22+Y9Y9+Ireland"
                     className="rounded-full border border-slate-300 px-5 py-3 text-center text-sm font-semibold text-ink sm:px-6 sm:py-3.5 sm:text-base"
                   >
                     Get directions
@@ -210,7 +202,7 @@ export default function Page() {
               <div className="h-[240px] overflow-hidden rounded-xl sm:h-[360px] sm:rounded-[1.5rem] lg:h-full">
                 <iframe
                   title="ASPIRE | The Agency map"
-                  src="https://www.google.com/maps?q=Unit+5+The+Courtyard+Unit+19+Fonthill+Rd+Lucan+Co.+Dublin&z=15&output=embed"
+                  src="https://www.google.com/maps?q=ASPIRE+The+Agency+Unit+5+The+Courtyard+Unit+19+Fonthill+Rd+Ballyowen+Lucan+Co.+Dublin+D22+Y9Y9+Ireland&z=15&output=embed"
                   className="h-full w-full border-0"
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
