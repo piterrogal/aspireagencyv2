@@ -18,11 +18,11 @@ body {
 }
 
 .section-title {
-  @apply text-2xl font-bold tracking-tight text-ink sm:text-4xl;
+  @apply text-xl font-bold tracking-tight text-ink sm:text-4xl;
 }
 
 .section-copy {
-  @apply mt-3 text-sm leading-6 text-slate-600 sm:text-base sm:leading-7;
+  @apply mt-2 text-sm leading-relaxed text-slate-600 sm:mt-3 sm:text-base sm:leading-7;
 }
 
 .card {
