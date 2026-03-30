@@ -87,40 +87,19 @@ export default function Page() {
               </div>
             </div>
 
-            {/* Mobile: compact horizontal badges */}
-            <div className="flex flex-wrap gap-1.5 sm:hidden">
-              <div className="rounded-full bg-white px-3 py-1.5 text-[11px] font-semibold text-ink">
+            {/* Compact badges - mobile & desktop */}
+            <div className="flex flex-wrap gap-1.5 sm:gap-2">
+              <div className="rounded-full bg-white px-3 py-1.5 text-[11px] font-semibold text-ink sm:px-4 sm:py-2 sm:text-sm">
                 Fonthill, Dublin
               </div>
-              <div className="rounded-full bg-white/15 px-3 py-1.5 text-[11px] font-semibold text-white">
+              <div className="rounded-full bg-white/15 px-3 py-1.5 text-[11px] font-semibold text-white sm:px-4 sm:py-2 sm:text-sm">
                 Mon–Thu 9–17:30
               </div>
-              <div className="rounded-full bg-white px-3 py-1.5 text-[11px] font-semibold text-violet">
-                5.0 Google
+              <div className="rounded-full bg-white/15 px-3 py-1.5 text-[11px] font-semibold text-white sm:px-4 sm:py-2 sm:text-sm">
+                Events & Conferences
               </div>
-            </div>
-            {/* Desktop: card grid */}
-            <div className="card hidden rounded-[2rem] border-white/10 bg-white/10 p-5 text-white backdrop-blur sm:block">
-              <div className="grid grid-cols-2 gap-3">
-                <div className="rounded-3xl bg-white p-4 text-ink">
-                  <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-violet">Location</p>
-                  <p className="mt-2 text-lg font-bold leading-tight">Fonthill Retail Park</p>
-                  <p className="mt-1 text-sm text-slate-600">Lucan, Dublin</p>
-                </div>
-                <div className="rounded-3xl bg-white/10 p-4">
-                  <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-white/70">Hours</p>
-                  <p className="mt-2 text-lg font-bold leading-tight">09:00–17:30</p>
-                  <p className="mt-1 text-sm text-white/70">Mon–Thu</p>
-                </div>
-                <div className="rounded-3xl bg-white/10 p-4">
-                  <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-white/70">Business type</p>
-                  <p className="mt-2 text-lg font-bold leading-tight">Events & conferences</p>
-                </div>
-                <div className="rounded-3xl bg-white p-4 text-ink">
-                  <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-violet">Google rating</p>
-                  <p className="mt-2 text-lg font-bold leading-tight">5.0</p>
-                  <p className="mt-1 text-sm text-slate-600">Top rated</p>
-                </div>
+              <div className="rounded-full bg-white px-3 py-1.5 text-[11px] font-semibold text-violet sm:px-4 sm:py-2 sm:text-sm">
+                5.0 Google Rating
               </div>
             </div>
           </div>
