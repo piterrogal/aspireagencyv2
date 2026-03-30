@@ -87,26 +87,27 @@ export default function Page() {
               </div>
             </div>
 
-            <div className="card rounded-2xl border-white/10 bg-white/10 p-3 text-white backdrop-blur sm:rounded-[2rem] sm:p-5">
-              <div className="grid grid-cols-2 gap-2 sm:gap-3">
-                <div className="rounded-2xl bg-white p-3 text-ink sm:rounded-3xl sm:p-4">
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-violet sm:text-[11px] sm:tracking-[0.22em]">Location</p>
-                  <p className="mt-1.5 text-base font-bold leading-tight sm:mt-2 sm:text-lg">Fonthill Retail Park</p>
-                  <p className="mt-0.5 text-xs text-slate-600 sm:mt-1 sm:text-sm">Lucan, Dublin</p>
+            <div className="card rounded-xl border-white/10 bg-white/10 p-2 text-white backdrop-blur sm:rounded-[2rem] sm:p-5">
+              <div className="grid grid-cols-2 gap-1.5 sm:gap-3">
+                <div className="rounded-xl bg-white p-2.5 text-ink sm:rounded-3xl sm:p-4">
+                  <p className="text-[9px] font-semibold uppercase tracking-[0.15em] text-violet sm:text-[11px] sm:tracking-[0.22em]">Location</p>
+                  <p className="mt-1 text-[13px] font-bold leading-snug sm:mt-2 sm:text-lg">Fonthill Retail Park</p>
+                  <p className="mt-0.5 text-[11px] text-slate-600 sm:mt-1 sm:text-sm">Lucan, Dublin</p>
                 </div>
-                <div className="rounded-2xl bg-white/10 p-3 sm:rounded-3xl sm:p-4">
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-white/70 sm:text-[11px] sm:tracking-[0.22em]">Hours</p>
-                  <p className="mt-1.5 text-base font-bold leading-tight sm:mt-2 sm:text-lg">09:00–17:30</p>
-                  <p className="mt-0.5 text-xs text-white/70 sm:mt-1 sm:text-sm">Mon–Thu</p>
+                <div className="rounded-xl bg-white/10 p-2.5 sm:rounded-3xl sm:p-4">
+                  <p className="text-[9px] font-semibold uppercase tracking-[0.15em] text-white/70 sm:text-[11px] sm:tracking-[0.22em]">Hours</p>
+                  <p className="mt-1 text-[13px] font-bold leading-snug sm:mt-2 sm:text-lg">09:00–17:30</p>
+                  <p className="mt-0.5 text-[11px] text-white/70 sm:mt-1 sm:text-sm">Mon–Thu</p>
                 </div>
-                <div className="rounded-2xl bg-white/10 p-3 sm:rounded-3xl sm:p-4">
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-white/70 sm:text-[11px] sm:tracking-[0.22em]">Business type</p>
-                  <p className="mt-1.5 text-base font-bold leading-tight sm:mt-2 sm:text-lg">Events & conferences</p>
+                <div className="rounded-xl bg-white/10 p-2.5 sm:rounded-3xl sm:p-4">
+                  <p className="text-[9px] font-semibold uppercase tracking-[0.15em] text-white/70 sm:text-[11px] sm:tracking-[0.22em]">Business</p>
+                  <p className="mt-1 text-[13px] font-bold leading-snug sm:mt-2 sm:text-lg">Events</p>
+                  <p className="mt-0.5 text-[11px] text-white/70 sm:mt-1 sm:text-sm">Conferences</p>
                 </div>
-                <div className="rounded-2xl bg-white p-3 text-ink sm:rounded-3xl sm:p-4">
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-violet sm:text-[11px] sm:tracking-[0.22em]">Google rating</p>
-                  <p className="mt-1.5 text-base font-bold leading-tight sm:mt-2 sm:text-lg">5.0</p>
-                  <p className="mt-0.5 text-xs text-slate-600 sm:mt-1 sm:text-sm">Top rated</p>
+                <div className="rounded-xl bg-white p-2.5 text-ink sm:rounded-3xl sm:p-4">
+                  <p className="text-[9px] font-semibold uppercase tracking-[0.15em] text-violet sm:text-[11px] sm:tracking-[0.22em]">Google rating</p>
+                  <p className="mt-1 text-[13px] font-bold leading-snug sm:mt-2 sm:text-lg">5.0</p>
+                  <p className="mt-0.5 text-[11px] text-slate-600 sm:mt-1 sm:text-sm">Top rated</p>
                 </div>
               </div>
             </div>
